@@ -1,0 +1,10 @@
+com/workouttracker/auth/dto/RegisterResponse.class
+com/workouttracker/config/SecurityConfig.class
+com/workouttracker/user/Role.class
+com/workouttracker/user/User.class
+com/auth/dto/RegisterRequest.class
+com/workouttracker/user/UserRepository.class
+com/workouttracker/config/PasswordConfig.class
+com/auth/dto/RegisterRequestValidator.class
+com/workouttracker/WorkoutTrackerApiApplication.class
+com/workouttracker/health/HealthController.class

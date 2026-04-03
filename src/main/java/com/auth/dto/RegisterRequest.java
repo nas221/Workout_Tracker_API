@@ -1,8 +1,9 @@
-package com.workouttracker.auth.dto;
+package com.auth.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+
 
 public record RegisterRequest(
         @NotBlank(message = "Email is required")
@@ -15,6 +16,15 @@ public record RegisterRequest(
 
         @NotBlank(message = "Display name is required")
         @Size(min = 2, max = 120, message = "Display name must be between 2 and 120 characters")
-        String displayName
-) {
-}
+        String displayName)
+ {
+    public String getEmail() {
+        return email;
+    }
+
+
+
+     public String getDisplayName() {
+         return displayName;
+     }
+ }

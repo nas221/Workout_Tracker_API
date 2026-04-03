@@ -6,7 +6,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PasswordConfigTest{
-    private final PasswordConfig passwordConfig = new PasswordConfig;
+    private final PasswordConfig passwordConfig = new PasswordConfig();
     @Test
     void encoderMatchesRawPasswordAgainstHash(){
         PasswordEncoder encoder = passwordConfig.passwordEncoder();

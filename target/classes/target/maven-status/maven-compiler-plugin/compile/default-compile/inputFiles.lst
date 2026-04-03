@@ -1,0 +1,10 @@
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/RegisterRequest.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/RegisterRequestValidator.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/RegisterResponse.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/WorkoutTrackerApiApplication.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/config/PasswordConfig.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/config/SecurityConfig.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/health/HealthController.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/user/Role.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/user/User.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/user/UserRepository.java

@@ -1,8 +1,8 @@
-package com.workouttracker.auth.dto;
+package com.auth.dto;
 
 public record RegisterResponse(
-        Long id, String email,
+        Long id,
+        String email,
         String displayName
-){
-
+) {
 }

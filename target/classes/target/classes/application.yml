@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: workout-tracker-api
+  profiles:
+    default: dev
+
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    root: INFO
+
