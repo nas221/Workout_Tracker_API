@@ -1,33 +1,32 @@
 package com.workouttracker.config;
 
-}
-    }
-                .andExpect(status().isUnauthorized());
-        mockMvc.perform(get("/api/v1/workouts"))
-    void protectedEndpointRequiresAuthentication() throws Exception {
-    @Test
-
-    }
-                .andExpect(status().isOk());
-        mockMvc.perform(get("/api/v1/health"))
-    void publicHealthEndpointIsAccessibleWithoutAuthentication() throws Exception {
-    @Test
-
-    private MockMvc mockMvc;
-    @Autowired
-
-class SecurityConfigIntegrationTest {
-@ActiveProfiles("test")
-@AutoConfigureMockMvc
-@SpringBootTest
-
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.context.ActiveProfiles;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.web.servlet.MockMvc;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
+@SpringBootTest
+@AutoConfigureMockMvc
+@ActiveProfiles("test")
+class SecurityConfigIntegrationTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @Test
+    void publicHealthEndpointIsAccessibleWithoutAuthentication() throws Exception {
+        mockMvc.perform(get("/api/v1/health"))
+                .andExpect(status().isOk());
+    }
+
+    @Test
+    void protectedEndpointRequiresAuthentication() throws Exception {
+        mockMvc.perform(get("/api/v1/workouts"))
+                .andExpect(status().isUnauthorized());
+    }
+}
