@@ -1,1 +1,6 @@
+com/workouttracker/WorkoutTrackerApiApplicationTests.class
+com/workouttracker/health/HealthControllerWebMvcTest.class
 com/workouttracker/auth/AuthServiceTest.class
+com/workouttracker/config/SecurityConfigIntegrationTest.class
+com/workouttracker/auth/AuthControllerWebMvcTest.class
+com/workouttracker/config/PasswordConfigTest.class

@@ -1,1 +1,6 @@
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/test/java/com/workouttracker/WorkoutTrackerApiApplicationTests.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/test/java/com/workouttracker/auth/AuthControllerWebMvcTest.java
 /Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/test/java/com/workouttracker/auth/AuthServiceTest.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/test/java/com/workouttracker/config/PasswordConfigTest.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/test/java/com/workouttracker/config/SecurityConfigIntegrationTest.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/test/java/com/workouttracker/health/HealthControllerWebMvcTest.java

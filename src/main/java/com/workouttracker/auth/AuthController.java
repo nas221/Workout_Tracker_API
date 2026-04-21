@@ -1,6 +1,7 @@
-package com.auth.dto;
+package com.workouttracker.auth;
 
-import com.workouttracker.auth.AuthService;
+import com.workouttracker.auth.dto.RegisterRequest;
+import com.workouttracker.auth.dto.RegisterResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

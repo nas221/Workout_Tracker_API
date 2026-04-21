@@ -1,10 +1,9 @@
-/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/AuthController.java
-/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/AuthService.java
-/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/RegisterRequest.java
-/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/RegisterRequestValidator.java
-/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/auth/dto/RegisterResponse.java
 /Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/WorkoutTrackerApiApplication.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/auth/AuthController.java
 /Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/auth/AuthService.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/auth/dto/RegisterRequest.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/auth/dto/RegisterRequestValidator.java
+/Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/auth/dto/RegisterResponse.java
 /Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/config/PasswordConfig.java
 /Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/config/SecurityConfig.java
 /Users/nasiraigorogmail.com/IdeaProjects/Workout_Tracker_API/src/main/java/com/workouttracker/health/HealthController.java

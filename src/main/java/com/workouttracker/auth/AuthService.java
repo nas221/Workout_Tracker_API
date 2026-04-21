@@ -1,7 +1,7 @@
 package com.workouttracker.auth;
 
-import com.auth.dto.RegisterRequest;
-import com.auth.dto.RegisterResponse;
+import com.workouttracker.auth.dto.RegisterRequest;
+import com.workouttracker.auth.dto.RegisterResponse;
 import com.workouttracker.user.User;
 import com.workouttracker.user.UserRepository;
 import org.springframework.http.HttpStatus;
@@ -9,6 +9,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
+
+import java.util.Locale;
 
 @Service
 public class AuthService {
@@ -23,7 +25,7 @@ public class AuthService {
 
     @Transactional
     public RegisterResponse register(RegisterRequest request) {
-        String normalizedEmail = request.email().trim().toLowerCase();
+        String normalizedEmail = request.email().trim().toLowerCase(Locale.ROOT);
         if (userRepository.existsByEmail(normalizedEmail)) {
             throw new ResponseStatusException(HttpStatus.CONFLICT, "Email already registered");
         }

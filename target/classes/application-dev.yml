@@ -1,22 +1,23 @@
 spring:
-
-      access-token-expiration-minutes: 30
-      secret: replace-me-with-at-least-32-characters-in-dev
-    jwt:
-  security:
-app:
-
-    enabled: true
-  flyway:
-        format_sql: true
-      hibernate:
-    properties:
-      ddl-auto: validate
-    hibernate:
-    open-in-view: false
-  jpa:
-    driver-class-name: org.postgresql.Driver
-    password: workout_pass
-    username: workout_user
-    url: jdbc:postgresql://localhost:5432/workout_tracker
   datasource:
+    url: jdbc:postgresql://localhost:5432/workout_tracker
+    username: workout_user
+    password: workout_pass
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+
+app:
+  security:
+    jwt:
+      secret: replace-me-with-at-least-32-characters-in-dev
+      access-token-expiration-minutes: 30

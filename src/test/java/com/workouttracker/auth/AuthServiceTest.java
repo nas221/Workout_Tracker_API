@@ -1,7 +1,7 @@
 package com.workouttracker.auth;
 
-import com.auth.dto.RegisterRequest;
-import com.auth.dto.RegisterResponse;
+import com.workouttracker.auth.dto.RegisterRequest;
+import com.workouttracker.auth.dto.RegisterResponse;
 import com.workouttracker.user.User;
 import com.workouttracker.user.UserRepository;
 import org.junit.jupiter.api.Test;
@@ -58,4 +58,3 @@ class AuthServiceTest {
         assertEquals("hashedPassword", savedUser.getPasswordHash());
     }
 }
-

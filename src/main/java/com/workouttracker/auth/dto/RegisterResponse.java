@@ -1,4 +1,4 @@
-package com.auth.dto;
+package com.workouttracker.auth.dto;
 
 public record RegisterResponse(
         Long id,
